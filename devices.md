@@ -1,4 +1,4 @@
-# 设备
+# NVIDIA CUDA Python编程框架--Warp开发文档--设备
 Warp 为系统中所有支持的计算设备分配唯一的字符串别名。 当前有一个 CPU 设备公开为“cpu”。 每个支持 CUDA 的 GPU 都会获得一个“cuda:i”形式的别名，其中 i 是 CUDA 设备序号。 使用 PyTorch 等其他流行框架的用户应该熟悉此约定。
 
 可以使用 device 参数通过每个 Warp API 调用显式地定位特定设备：
